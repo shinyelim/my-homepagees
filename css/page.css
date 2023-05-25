@@ -118,14 +118,80 @@ nav{
  .footer-list{
   display: flex;
  }
- .footer-item{
+ .icon-1ist{
   margin-right: 20px;
   color: #88959b;
  }
  
- .fo0ter-item:last-child{
+ .icon-1ist last-child{
   margin-right: 0;
  }
- .footer-item a {
+ .icon-1ist a {
   color: #508bf0;
  }
+ 
+ .fixed-back-img{
+  width: 1200px;
+  height: 600px;
+  background-color: #ffffff;
+  background-image: url(../imges/시나모롤_메인.jpg);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position:center bottom ;
+  background-attachment: fixed;
+ }
+ .fixed-back{
+  height: 600px;
+  background-color:#508bf0 ;
+ }
+ footer{
+  background-color: skyblue;
+  justify-content: space-between;
+ }
+ .global-footer{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+
+  .global-footer h3{
+  color: #fff;
+  }
+  
+ }
+ .icon-item{
+  display: flex;
+  margin: 0 auto;
+ }
+ .icon-item a {
+  padding-right: 20px;
+ }
+ icon-item:last-child a {
+  padding-right: 0;
+ }
+ .top-btn i{
+font-size: 38px;
+color: #fff;
+ }
+ .top-btn{
+  position: fixde;
+  bottom: 30px;
+  right: 30px;
+ }
+ .side-meun-list{
+  width: 200px;
+  background-color: #a54e4e;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #666;
+ }
+ .side-meun-item a {
+  display: inline-block;
+  padding: 5px 5px;
+  
+ }
+ .side-meun{
+position: fixed;
+top:170px;
+right: 60px;
+ }
+ 
