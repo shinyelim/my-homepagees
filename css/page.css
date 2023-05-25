@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Josefin Sans', sans-serif;
+  
 }
   
 
@@ -44,6 +44,9 @@ nav{
   background-position: center;
   background-size: cover;
   padding: 30px 45px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   
 }
 .back-txt{
@@ -54,20 +57,20 @@ nav{
   flex-direction: column;
   color: rgb(32, 68, 127);
 }
-.back-title{
+.main-title{
   font-size: 45px;
 }
-.back-content{
-  width: 80%;
-  margin-top: 30px;
-  font-size: 24px;
-  text-align: center;
+.main-content{
+  
+  margin-top: 20px;
+  
 }
-.back-btn{
-  margin-top: 30xp;
-  padding: 10px 20px;
+.main-btn{
+  margin-top: 20xp;
+  padding: 10px ;
   border-radius: 10px;
-  border: 3px solid #508bf0;
+  border: none;
+  border-radius: 25px;
   font-weight:bold;
 
 }
@@ -77,18 +80,23 @@ nav{
   margin-top: -80px;
   flex-direction: column;
 }
-.post-box-item{
-  
-  
-  font-family: 'Rubik Puddles', cursive;
-  padding: 30px 20px;
-  color: rgb(13, 93, 131);
-  width: 500px;
-  margin-top: 20px;
-  text-align: center;
-  background-color: rgb(168, 230, 255);
-  
-  box-shadow: 7px 7px #3c829e;
+.post-card{
+  position: relative;
+  top: -90px;
+}
+.post-card > div{
+ width: 80%;
+ background-color: #508bf0;
+ max-width:600px; 
+ /*min-width:최소폭을 결정하는 속성:300px이하로는 작아지지말아라*/
+ /*max-width는 최대폭을 결정하는 속성:600px이상은 커지지말아라*/
+ margin: 30px  auto  0 auto;
+ padding: 30px;
+ text-align: center;
+ border-radius: 10px;
+ margin-top: 50px;
+
+
 }
 .post-box-item:last-child{
   margin-right: 0;
@@ -112,6 +120,7 @@ nav{
  }
  .footer-item{
   margin-right: 20px;
+  color: #88959b;
  }
  
  .fo0ter-item:last-child{
